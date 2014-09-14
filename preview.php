@@ -1,9 +1,4 @@
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <head>
 <title>Free Ecomm Template Website Template | Preview :: w3layouts</title>
@@ -51,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   	  		<div class="wrap">
 				<div class="header_top">
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt="" /></a>
+			<a href="index.html"><img src="images/logo.png" alt="" width="250"/></a>
 					</div>
 						<div class="header_top_right">
 							  <div class="search_box">
@@ -65,46 +60,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			     <div class="clear"></div>
   		    </div>
   		    <div class="navigation">
-  		    	<a class="toggleMenu" href="#">Menu</a>
+  		    		<a class="toggleMenu" href="#">Menu</a>
 					<ul class="nav">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
-						<li  class="test">
-							<a href="#">Appliances</a>
-							<ul>
-								<li>
-									<a href="#">Cookware</a>
-									<ul>
-										<li><a href="#">Pots & Pans</a></li>
-										<li><a href="#">Pressure Cookers</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Storage</a>
-									<ul>
-										<li><a href="#">Bottles & Sippers</a></li>
-										<li><a href="#">Containers & Jars</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Cutlery & Tableware</a>
-									<ul>
-										<li><a href="#">Cutlery</a></li>
-										<li><a href="#">Condiment Sets</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Bar Accessories</a>
-									<ul>
-										<li><a href="#">Bottle Openers</a></li>
-										<li><a href="#">Flasks</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
+
 						<li>
-							<a href="#">Computers</a>
+							<a href="#">Pagina 1</a>
 							<ul>
 								<li>
 									<a href="#">Laptops</a>
@@ -130,7 +93,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</ul>
 						</li>
 						<li>
-							<a href="#">Health & Beauty</a>
+							<a href="#">Pagina 2</a>
 							<ul>
 								<li><a href="#">Bath & Skin Care</a></li>
 								<li><a href="#">Health & Safety</a></li>
@@ -140,34 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</ul>
 						</li>
 						<li>
-							<a href="#">Home & Garden</a>
-							<ul>
-								<li>
-									<a href="#">Home Furnishing</a>
-									<ul>
-										<li><a href="#">Bed</a></li>
-										<li><a href="#">Bath</a></li>
-										<li><a href="#">Kitchen</a></li>
-										<li><a href="#">Living</a></li>
-
-									</ul>
-								</li>
-								<li>
-									<a href="#">Home Decor</a>
-									<ul>
-										<li><a href="#">Flowers & Plants</a></li>
-										<li><a href="#">Home Fragrances</a></li>
-										<li><a href="#">Spiritual Decor</a></li>
-										<li><a href="#">Wall Decor</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Gardening Tools</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Office Supplies</a>
+							<a href="#">Pagina 3</a>
 							<ul>
 								<li>
 									<a href="#">Books</a>
@@ -195,47 +131,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 							</ul>
 						</li>
+
 						<li>
-							<a href="#">Sports Equipment</a>
-							<ul>
-								<li>
-									<a href="#">Fitness</a>
-									<ul>
-										<li><a href="#">Yoga Mats</a></li>
-										<li><a href="#">Gym Gloves</a></li>
-										<li><a href="#">Ab Exercisers</a></li>
-										<li><a href="#">Gym Balls</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Indoor Sports</a>
-									<ul>
-										<li><a href="#">Chess</a></li>
-										<li><a href="#">Darts</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Team Sports</a>
-									<ul>
-										<li><a href="#">Basketball</a></li>
-										<li><a href="#">Cricket</a></li>
-										<li><a href="#">Football</a></li>
-										<li><a href="#">VolleyBall</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Racquet Sports</a>
-									<ul>
-										<li><a href="#">Badminton</a></li>
-										<li><a href="#">Squash</a></li>
-										<li><a href="#">Table Tennis</a></li>
-										<li><a href="#">Tennis</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="contact.html">Contact Us</a>
+							<a href="contact.html">Fale Conosco</a>
 						</li>
 					</ul>
 					 <span class="left-ribbon"> </span>
