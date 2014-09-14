@@ -146,6 +146,7 @@
                 <div class="product-articles">
 			      <h3>Artigos</h3>
 			      <ul>
+                    <?php Main::artigos();?>
 			      	<!--<li>
 			      <div class="article">
 			      	<p><span>Aenean vitae massa dolor</span></p>

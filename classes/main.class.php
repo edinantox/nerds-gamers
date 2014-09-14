@@ -115,5 +115,22 @@ class Main{
             echo '</div>';
 
     }
+
+    static function artigos(){
+        require_once "./classes/conexao.class.php";
+        $qr=Conexao::query("select * from artigos order by data limit 5");
+
+        while($res=mysqli_fetch_array($qr)){
+        echo'
+                    <li>
+			      <div class="article">
+			      	<p><span>'.$res['titulo'].'</span></p>
+			      	<p>'.substr($res['texto'],0,250).'...</p>
+			      	<p><a href="./artigo.php?art='.$res['id_art'].'">Ler Artigo</a></p>
+			      </div>
+			      </li>
+        ';
+        }
+    }
 }
 ?>

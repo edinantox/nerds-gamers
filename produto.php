@@ -1,29 +1,29 @@
-
+<?php require("./classes/main.class.php");?>
 <!DOCTYPE HTML>
 <head>
-<title>Free Ecomm Template Website Template | Preview :: w3layouts</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
-<script src="js/jquery.openCarousel.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-<link href="css/easy-responsive-tabs.css" rel="stylesheet" type="text/css" media="all"/>
- <script type="text/javascript">
-    $(document).ready(function () {
-        $('#horizontalTab').easyResponsiveTabs({
-            type: 'default', //Types: default, vertical, accordion
-            width: 'auto', //auto or any width like 600px
-            fit: true   // 100% fit in a container
+    <title>Nerds & Gamers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/jquery.openCarousel.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <link href="css/easy-responsive-tabs.css" rel="stylesheet" type="text/css" media="all"/>
+     <script type="text/javascript">
+        $(document).ready(function () {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion
+                width: 'auto', //auto or any width like 600px
+                fit: true   // 100% fit in a container
+            });
         });
-    });
-   </script>
-<link rel="stylesheet" href="css/etalage.css">
-<script src="js/jquery.etalage.min.js"></script>
-<script>
+       </script>
+    <link rel="stylesheet" href="css/etalage.css">
+    <script src="js/jquery.etalage.min.js"></script>
+    <script>
 			jQuery(document).ready(function($){
 
 				$('#etalage').etalage({
@@ -42,6 +42,7 @@
 	  <script src="js/star-rating.js" type="text/javascript"></script>
 </head>
 <body>
+
 	<div class="header">
   	  		<div class="wrap">
 				<div class="header_top">
@@ -50,7 +51,7 @@
 					</div>
 						<div class="header_top_right">
 							  <div class="search_box">
-							  	<span>Search</span>
+							  	<span>Buscar</span>
 					     		<form>
 					     			<input type="text" value=""><input type="submit" value="">
 					     		</form>
@@ -59,79 +60,29 @@
 					</div>
 			     <div class="clear"></div>
   		    </div>
+<!-------------------------------------------------Menu--------------------------------------------------------------->
   		    <div class="navigation">
-  		    		<a class="toggleMenu" href="#">Menu</a>
+                <a class="toggleMenu" href="#">Menu</a>
 					<ul class="nav">
 						<li>
-							<a href="index.php">Home</a>
+							<a href="index.html">Home</a>
+						</li>
+                        <li>
+							<a href="?noticias">Notícias</a>
 						</li>
 
+						<?php Main::menu();?>
+
 						<li>
-							<a href="#">Pagina 1</a>
+							<a href="#">Categorias</a>
 							<ul>
-								<li>
-									<a href="#">Laptops</a>
-									<ul>
-										<li><a href="#">HP</a></li>
-										<li><a href="#">Lenova</a></li>
-										<li><a href="#">Dell</a></li>
-										<li><a href="#">All Brands</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Computer Accessories</a>
-									<ul>
-										<li><a href="#">External Hard Disks</a></li>
-										<li><a href="#">Pendrives</a></li>
-										<li><a href="#">PC Components</a></li>
-										<li><a href="#">Computer Peripherals</a></li>
-										<li><a href="#">Datacards & Routers</a></li>
-										<li><a href="#">Mouse</a></li>
-										<li><a href="#">Laptop Skins & Decals</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">Pagina 2</a>
-							<ul>
-								<li><a href="#">Bath & Skin Care</a></li>
-								<li><a href="#">Health & Safety</a></li>
-								<li><a href="#">Maternity Care</a></li>
-								<li><a href="#">Body Care Combos</a></li>
+								<?php Main::menu_categorias();?>
 
 							</ul>
 						</li>
 						<li>
-							<a href="#">Pagina 3</a>
-							<ul>
-								<li>
-									<a href="#">Books</a>
-									<ul>
-										<li><a href="#">Academic & Professional</a></li>
-										<li><a href="#">Entrance Exam</a></li>
-										<li><a href="#">Literature & Fiction</a></li>
-										<li><a href="#">Children & Teens</a></li>
-										<li><a href="#">Indian Writing</a></li>
-										<li><a href="#">New Releases</a></li>
-										<li><a href="#">Bestsellers</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="#">Stationery</a>
-									<ul>
-										<li><a href="#">Pens</a></li>
-										<li><a href="#">Calculators</a></li>
-										<li><a href="#">College Supplies</a></li>
-										<li><a href="#">Art Supplies</a></li>
-										<li><a href="#">Diaries & Notebooks</a></li>
-										<li><a href="#">Gifting</a></li>
-									</ul>
-								</li>
-
-							</ul>
+							<a href="?conta">Minha Conta</a>
 						</li>
-
 						<li>
 							<a href="contact.html">Fale Conosco</a>
 						</li>
@@ -141,6 +92,7 @@
   		       </div>
    		    </div>
           </div>
+<!-------------------------------------------------/Menu--------------------------------------------------------------->
        <!------------End Header ------------>
    <div class="main">
    	 <div class="wrap">
@@ -148,9 +100,9 @@
    	 	       <div class="section group">
 				<div class="cont-desc span_1_of_2">
 					<ul class="back-links">
-						<li><a href="#">Home</a> ::</li>
-						<li><a href="#">Product Page</a> ::</li>
-						<li>Product Name</li>
+
+						<li><a href="">asdasdasd</a></li>
+
 						<div class="clear"> </div>
 					</ul>
 				  <div class="product-details">
