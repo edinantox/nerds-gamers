@@ -10,8 +10,8 @@ class Conexao{
 
 	public static function query($qr){
 		$con=self::conectar();
-		$res=$con->query("SET NAMES 'utf8'") or die($qr."<br>".mysql_error());
-		$res=$con->query($qr) or die($qr."<br>".mysql_error());
+		$res=$con->query("SET NAMES 'utf8'") or die($qr."<br>".mysqli_error());
+		$res=$con->query($qr) or die($qr."<br>".mysqli_error());
 		$con->close();
 		return $res;
 	}
