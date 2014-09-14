@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="shortcut icon" href="images/favicon.png" />
     <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
     <script src="js/jquery.openCarousel.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/easing.js"></script>
